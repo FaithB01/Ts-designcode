@@ -1,8 +1,18 @@
+
 import React from 'react';
 //import StarIcon from "react-rating-stars-component";
+interface Work{
+      title: string;
+      repo: string;
+      repoUrl: string;
+      tech: string;
+      lastDeploy: string;
+      location: string;
+      starred: Boolean;
+      active: Boolean;
+}
 
-
-const Project= ({project}:{project:any}) => {
+const Project= ({project}:{project:Work}) => {
   return (
     <>
 
@@ -36,7 +46,7 @@ const Project= ({project}:{project:any}) => {
           <p className="site ">
             <span> Visit site
               <span style={{ fontSize: "150%", color: "#f4ca11" }}>
-
+                ⭐
               </span>
             </span>
 

@@ -4,6 +4,7 @@ import Activity from './Activity';
 
 
 function ActivityItemList() {
+  
   const activityItems = [
     {
       project: 'Workcation',

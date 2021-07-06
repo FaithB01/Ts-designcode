@@ -1,8 +1,14 @@
 import React from 'react';
 
+interface Act{
+  project:string,
+  commit:string,
+  environment:string,
+  time:string,
+  
+}
 
-
-function Activity  ({item}:{item:any}) {
+function Activity ({item}:{item:Act}) {
 
   return (
     <>
