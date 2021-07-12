@@ -1,10 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import ReactDom from 'react-dom';
-import App from './App';
+import Profile from './Profile';
 
-it('renders without crashing', () => {
+test('renders without crashing', () => {
   const div = document.createElement('div');
-  render(<App />, div);
-  ReactDom.unmountComponentAtNode(div);
+  ReactDom.render(<Profile />,div);
 });

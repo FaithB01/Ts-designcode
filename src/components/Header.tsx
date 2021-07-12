@@ -1,15 +1,8 @@
 import React from 'react';
 
-interface Props {
-  id: string;
-  
-
-}
-
-const Header: React.FC <Props> = () => {
+const Header = () => {
   return (
     <header className="brand-header">
-
       <div className="logo">
         <img src="https://tailwindui.com/img/logos/v1/workflow-mark-on-brand.svg" width="40" height="30" alt="Workflow logo" />
       </div>

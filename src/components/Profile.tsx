@@ -32,7 +32,7 @@ const Row :React.FC <Props> = (props) => {
           </div>
           <div className="screen-button ">
             <button type="button" className="screen-button " >
-              New Project
+              Invite Team
             </button>
             <button className="screen-button ">Invite team</button>
           </div>
